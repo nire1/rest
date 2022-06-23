@@ -1,4 +1,4 @@
-package ru.home.rest.rest;
+package ru.home.rest.service;
 
 import ru.home.rest.model.Employee;
 

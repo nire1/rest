@@ -8,7 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 import ru.home.rest.model.Employee;
-import ru.home.rest.rest.EmployeeService;
+import ru.home.rest.service.EmployeeService;
 import java.util.List;
 
 import javax.validation.Valid;

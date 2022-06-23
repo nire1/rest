@@ -1,10 +1,11 @@
-package ru.home.rest.rest;
+package ru.home.rest.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ru.home.rest.model.Employee;
 import ru.home.rest.repository.EmployeeRepository;
+import ru.home.rest.service.EmployeeService;
 
 import java.util.List;
 
@@ -37,4 +38,5 @@ public class EmployeeServiceImpl implements EmployeeService {
         log.info("IN EmployeeServiceImpl getAll {}");
         return employeeRepository.findAll();
     }
+
 }
